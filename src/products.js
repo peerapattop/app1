@@ -1,8 +1,8 @@
-import React from "react"
+import React,{Component} from "react"
 import './products.css'
 
+
 export default class Products extends Component{
-    {
         data = [
             ['React',500],
             ['React Native',650],
@@ -23,6 +23,4 @@ export default class Products extends Component{
                 
             )
         }
-    }
-
 }
