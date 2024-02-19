@@ -12,7 +12,7 @@ export default function FormText(){
         }
     }
     const onBlurPassword2 = () => {
-        if(textPswd.current.value != textPswd2.current.value){
+        if(textPswd.current.value !== textPswd2.current.value){
             textPswd2.current.value=''
             alert('รหัสผ่านทั้งสองช่องไม่ตรงกัน')
         }
@@ -36,7 +36,7 @@ export default function FormText(){
             </div>
             <div className="form-group mb-4">
                 <label htmlFor="memo">บันทึกช่วยจำ</label>
-                <textarea id="memo" name="memo" rows='2' maxLength="200" className="form-control form-control-lg">
+                <textarea id="memo" name="memo" rows='2' maxLength="200" className="form-control form-control-sm">
                 </textarea>
             </div>
             <div className="text-center">
