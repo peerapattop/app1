@@ -19,7 +19,7 @@ export default function FormText(){
 
     }
     return(
-        <div className="mt-4 mx-auto p-3 rounded" style={{width:'400px',background:'#ccc'}}>
+        <div className="mt-4 mx-auto p-3 rounded" style={{width:'400px',background:'#cee'}}>
 
         <form>
             <div className="form-group mb-2">
