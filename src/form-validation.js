@@ -4,10 +4,10 @@ import { useForm } from 'react-hook-form'
 export default function FormValidation() {
     const cats = [['100', 'ไอที'], ['200', 'เครื่องจักรกล'], ['300', 'เคมีภัณฑ์']];
     const opts = ['Option 1', 'Option 2', 'Option 3'];
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: {errors}} = useForm();
     const inputFile = React.useRef();
 
-    const onSubmitForm = (data, event) => {
+    const onSubmitForm = (event) => {
         let maxNumFiles = 3;
         let maxSize = 300;
         if (inputFile.current.files.length > maxNumFiles) {
