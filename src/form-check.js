@@ -73,7 +73,7 @@ export default function FormCheck(){
                 </div>
 
                 <div className="text-center mt-4">
-                    <button type="button" className="btn btn-sm px-4 bg-primary text-white" onClick={onClickButton}>OK</button>
+                    <button type="button" className="btn btn-sm px-4 btn-primary" onClick={onClickButton}>OK</button>
                 </div>
             </form>
         </div>
